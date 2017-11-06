@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+}
+li{
+	list-style: none;
+}
+body,html,.box{ 
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-size: .32rem;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.header,.fonter{
+	height: .96rem;
+	line-height: .96rem;
+	text-align: center;
+	color: #fff;
+	background-image:linear-gradient(to bottom,red,black); 
+}
+.box{
+	display: flex;
+	-webkit-flex-direction: column;
+	bottom: 0;
+	top: 0;
+}
+.main{
+	flex: 1;
+	background-color: #ccc;
+	overflow: hidden;
+	overflow-y: scroll;
+}
